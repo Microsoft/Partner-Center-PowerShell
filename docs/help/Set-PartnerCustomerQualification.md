@@ -33,7 +33,7 @@ Updates the specified customer's qualification to be "Education" or "GovernmentC
 
 ### Example 1
 ```powershell
-PS C:\> Get-PartnerCustomerQualification -CustomerId 'c4f6bf3c-60de-432e-a3ec-20bcc5b26ec2' -Qualification GovernmentCommunityCloud
+PS C:\> Set-PartnerCustomerQualification -CustomerId 'c4f6bf3c-60de-432e-a3ec-20bcc5b26ec2' -Qualification GovernmentCommunityCloud
 ```
 
 Updates the specified customer's qualification to be GovernmentCommunityCloud.
